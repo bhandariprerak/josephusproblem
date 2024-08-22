@@ -6,7 +6,7 @@ def position_to_stand(total_soldiers) -> int:
         winning_position = 1
     else:
         # finding the nearest power power of 2
-        nearest_power_of_2 = int(math.log(n, 2))
+        nearest_power_of_2 = int(math.log(total_soldiers, 2))
         # finding the remaining numbers
         diff = total_soldiers - (2**nearest_power_of_2)
         # winning position is (2*l + 1)
