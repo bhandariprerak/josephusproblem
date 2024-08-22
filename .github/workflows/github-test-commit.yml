@@ -24,8 +24,14 @@ jobs:
                 pip install -r requirements.txt
 
             - name: Test the cases
-              run:
-                py.test # to run all test cases in the repository. for specific files use 'pytest <test_file_name>'
+              run: | 
+                pytest --cov=main --cov-report=term --cov-report=json:coverage.json # to test all cases with code coverage and report to terminal as well as to coverage.json file
+
+            - name: Upload coverage to Codecov
+              uses: codecov/codecov-action@v3
+              with:
+                token: ${{ secrets.CODE_COV_TOKEN }}
+                files: ./coverage.json
 
 
 
