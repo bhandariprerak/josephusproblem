@@ -3,12 +3,13 @@
 </div>
 
 <p align="center">
+<img alt="Actions Status" src="https://github.com/bhandariprerak/josephus-problem/workflows/github-test-commit.yml/badge.svg">
 <img alt="Language: Python" src="https://img.shields.io/badge/Language-Python-yellow"> <!-- Language-Python -->
-<a href="/workspaces/joshephus-problem/LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-purple"></a> <!-- License-MIT -->
+<a href="https://github.com/bhandariprerak/josephus-problem/blob/main/LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-purple"></a> <!-- License-MIT -->
 <img alt="Platform: Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"> <!-- Platform-Linux -->
 </p>
 
-<h1 align="center"> Joshephus Problem </h1>
+<h1 align="center"> Josephus Problem </h1>
 
 ### History and Problem Statement
 
