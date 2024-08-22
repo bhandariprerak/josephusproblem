@@ -1,4 +1,4 @@
-name: commit-check
+name: Test
 
 on: 
     push:

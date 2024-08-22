@@ -3,7 +3,7 @@
 </div>
 
 <p align="center">
-<img alt="Actions Status" src="https://github.com/bhandariprerak/josephus-problem/workflows/github-test-commit.yml/badge.svg">
+<img alt="Actions Status" src="https://github.com/bhandariprerak/josephus-problem/workflows/Test/badge.svg">
 <img alt="Language: Python" src="https://img.shields.io/badge/Language-Python-yellow"> <!-- Language-Python -->
 <a href="https://github.com/bhandariprerak/josephus-problem/blob/main/LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-purple"></a> <!-- License-MIT -->
 <img alt="Platform: Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"> <!-- Platform-Linux -->
