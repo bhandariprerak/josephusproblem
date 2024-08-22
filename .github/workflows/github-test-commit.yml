@@ -7,7 +7,7 @@ on:
             - '**' # To run the script for any other branch as well
 
 jobs:
-    first-step: 
+    test: 
         runs-on: macos-latest
         steps:
             - name: Pull the latest code
