@@ -4,6 +4,7 @@
 
 <p align="center">
 <img alt="Actions Status" src="https://github.com/bhandariprerak/josephus-problem/workflows/Test/badge.svg">
+<a href="https://codecov.io/github/bhandariprerak/josephus-problem"><img alt="CodeCov" src="https://codecov.io/github/bhandariprerak/josephus-problem/graph/badge.svg?token=PIDT9JBKL4"></a> <!-- Code Coverage -->
 <img alt="Language: Python" src="https://img.shields.io/badge/Language-Python-yellow"> <!-- Language-Python -->
 <a href="https://github.com/bhandariprerak/josephus-problem/blob/main/LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-purple"></a> <!-- License-MIT -->
 <img alt="Platform: Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"> <!-- Platform-Linux -->

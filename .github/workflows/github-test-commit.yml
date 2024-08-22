@@ -25,7 +25,7 @@ jobs:
 
             - name: Test the cases
               run: | 
-                pytest --cov=main --cov-report=term --cov-report=json:coverage.json # to test all cases with code coverage and report to terminal as well as to coverage.json file
+                pytest --cov=. --cov-report=term --cov-report=json:coverage.json # to test all cases with code coverage and report to terminal as well as to coverage.json file
 
             - name: Upload coverage to Codecov
               uses: codecov/codecov-action@v3
