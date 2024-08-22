@@ -1,0 +1,33 @@
+name: commit check
+
+on: 
+    push:
+        branches:
+            - main # To run the script when using the main branch
+            - '**' # To run the script for any other branch as well
+
+jobs:
+    first-step: 
+        runs-on: macos-latest
+        steps:
+            - name: Pull the latest code
+              uses: actions/checkout@v4
+
+            - name: Install Python
+              uses: actions/setup-python@v5
+              with:
+                python-version: '3.x' # works with all python version > 3
+
+            - name: Install pip and pytest
+              run: |
+                python -m pip install --upgrade pip
+                pip install -r requirements.txt
+
+            - name: Test the cases
+              run:
+                py.test # to run all test cases in the repository. for specific files use 'pytest <test_file_name>'
+
+
+
+
+
