@@ -11,6 +11,7 @@ def position_to_stand(total_soldiers) -> int:
         diff = total_soldiers - (2**nearest_power_of_2)
         # winning position is (2*l + 1)
         winning_position = (2*diff) + 1
+        # if winning position is greater than total number of soldiers, take modulus of total number
         if winning_position > total_soldiers:
             winning_position = winning_position%total_soldiers
 
